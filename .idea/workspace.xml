@@ -10,13 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34419e3b-87a6-4e19-8ad9-48e0a0d00d1d" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo001/020函数高级.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo001/020_函数高级.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo001/025_结构体.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo001/025_结构体.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo001/026_结构体方法和接收者.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo001/026_结构体方法和接收者.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-    </list>
+    <list default="true" id="34419e3b-87a6-4e19-8ad9-48e0a0d00d1d" name="默认的" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
