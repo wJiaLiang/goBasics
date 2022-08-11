@@ -17,7 +17,6 @@ func main()  {
 	fmt.Println(userinfo)  // map[age:30 name:张三 sex:男]
 
 // 2，map 也支持初始化的时候 填充元素
-
 	var userinfo2 = map[string]string{
 		"name":"测试",
 		"sex":"123",

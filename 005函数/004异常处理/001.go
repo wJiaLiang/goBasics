@@ -10,7 +10,7 @@ func funcB() {
 	defer func() {
 		err := recover()
 		if(err != nil){
-			fmt.Println("err:",err)
+			fmt.Println("err:",err) //err: panic in B
 		}
 	}()
 	panic("panic in B")

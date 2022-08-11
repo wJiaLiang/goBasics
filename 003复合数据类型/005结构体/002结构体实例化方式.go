@@ -73,7 +73,7 @@ type Person struct {
 	city:"广州",
 	age:23,
 }
-fmt.Printf("p4=%#v \n",p4)
+fmt.Printf("p4=%#v \n",p4) //p4=main.Person{name:"mmk", city:"广州", age:23}
 
 
 

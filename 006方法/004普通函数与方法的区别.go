@@ -31,7 +31,7 @@ func structTestValue() {
 }
 
 //***********************************************************************************************
-//2.方法
+//2.方法  (结构体方法)
 type PersonD struct {
 	id int
 	name string
@@ -65,7 +65,6 @@ func main()  {
 
 	与普通函数不同，接收者为指针类型和值类型的方法，指针类型和值类型的变量均可相互调用
 */
-
 	structTestValue()
 	structTestFunc()
 

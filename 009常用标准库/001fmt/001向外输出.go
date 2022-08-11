@@ -8,7 +8,6 @@ import (
 func main()  {
 	/*
 		标准库fmt提供了以下几种输出相关函数。
-
 	*/
 	test1()
 	//test2()

@@ -38,7 +38,7 @@ func main()  {
 	i:=2
 	x:=3
 
-
+	//交互两个变量的值
 	i,x = x,i
 	fmt.Println(i,x)  // 3,2
 

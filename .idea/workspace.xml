@@ -10,11 +10,36 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34419e3b-87a6-4e19-8ad9-48e0a0d00d1d" name="默认的" comment="" />
+    <list default="true" id="34419e3b-87a6-4e19-8ad9-48e0a0d00d1d" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001程序结构/003_变量/001.go" beforeDir="false" afterPath="$PROJECT_DIR$/001程序结构/003_变量/001.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001程序结构/004_赋值/001.go" beforeDir="false" afterPath="$PROJECT_DIR$/001程序结构/004_赋值/001.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003复合数据类型/002数组/001.go" beforeDir="false" afterPath="$PROJECT_DIR$/003复合数据类型/002数组/001.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003复合数据类型/005结构体/002结构体实例化方式.go" beforeDir="false" afterPath="$PROJECT_DIR$/003复合数据类型/005结构体/002结构体实例化方式.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005函数/004异常处理/001.go" beforeDir="false" afterPath="$PROJECT_DIR$/005函数/004异常处理/001.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005函数/004异常处理/002defer,panic,recover综合使用.go" beforeDir="false" afterPath="$PROJECT_DIR$/005函数/004异常处理/002defer,panic,recover综合使用.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006方法/004普通函数与方法的区别.go" beforeDir="false" afterPath="$PROJECT_DIR$/006方法/004普通函数与方法的区别.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/009常用标准库/001fmt/001向外输出.go" beforeDir="false" afterPath="$PROJECT_DIR$/009常用标准库/001fmt/001向外输出.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo001/002_基本数据类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo001/002_基本数据类型.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo001/005_byte和rune.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo001/005_byte和rune.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo001/016_map类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo001/016_map类型.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo001/017_map详解.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo001/017_map详解.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo001/021_函数defer延迟执行.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo001/021_函数defer延迟执行.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo001/022_错误处理.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo001/022_错误处理.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo001/026_结构体方法和接收者.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo001/026_结构体方法和接收者.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo001/034反射/001.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo001/034反射/001.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
@@ -35,13 +60,83 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.常规" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Go 构建.go build 005map.go">
+    <configuration name="go build 002数组.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/demo002基础/002数组.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 002.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/003复合数据类型/002数组/002.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 003切片.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/demo002基础/003切片.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 004指针.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/demo002基础/004指针.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 005map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/demo002基础/005map.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 007函数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/demo002基础/007函数.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 017_map详解.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/demo001/017_map详解.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go 构建.go build 005map.go" />
+        <item itemvalue="Go 构建.go build 004指针.go" />
+        <item itemvalue="Go 构建.go build 003切片.go" />
+        <item itemvalue="Go 构建.go build 007函数.go" />
+        <item itemvalue="Go 构建.go build 017_map详解.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -58,5 +153,39 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="654" y="334" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1659867444888">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="654" y="334" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1659867444888" />
+    <state x="687" y="215" key="FileChooserDialogImpl" timestamp="1654677372803">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="687" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1654677372803" />
+    <state width="1865" height="162" key="GridCell.Tab.0.bottom" timestamp="1660229053429">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="162" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1660229053429" />
+    <state width="1865" height="162" key="GridCell.Tab.0.center" timestamp="1660229053429">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="162" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1660229053429" />
+    <state width="1865" height="162" key="GridCell.Tab.0.left" timestamp="1660229053428">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="162" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1660229053428" />
+    <state width="1865" height="162" key="GridCell.Tab.0.right" timestamp="1660229053429">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="162" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1660229053429" />
+    <state x="311" y="0" key="SettingsEditor" timestamp="1655086517834">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="311" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1655086517834" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1660141404160">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1660141404160" />
   </component>
 </project>

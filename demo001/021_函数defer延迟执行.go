@@ -2,6 +2,12 @@ package main
 
 import "fmt"
 
+/*
+在 defer 归属的函数即将返回 时，将延迟处理的语句按 defer 定义的逆序进行执行，
+也就是说，先被 defer 的语句最后被 执行，最后被 defer 的语句，最先被执行
+
+*/
+
 func dede()  {
 	// defer 延迟返回   在命名返回值 和匿名返回函数中表现不一样
 	fmt.Println("开始")
@@ -53,9 +59,9 @@ func C()  {
 
 
 func main()  {
-	//dede()
-	//fmt.Println( f2() ) // 0
-	//fmt.Println( f3() ) // 1
+	dede()
+	fmt.Println( f2() ) // 0
+	fmt.Println( f3() ) // 1
 	A()
 	B()
 	fmt.Println("结束")

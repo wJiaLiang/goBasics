@@ -6,7 +6,7 @@ import "fmt"
 /*
 	当b 为0 时候会报错，程序抛出异常；
 */
-func fn2(a int,b int) int  {
+func fn22(a int,b int) int  {
 	defer func() {
 		err:= recover()
 		if err !=nil {
@@ -17,7 +17,7 @@ func fn2(a int,b int) int  {
 }
 
 func main()  {
- fmt.Println(	 fn2(10,0) ) // 0
+ fmt.Println(	 fn22(10,0) ) // 0
  fmt.Println("继续执行")
 	
 	
