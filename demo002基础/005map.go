@@ -18,7 +18,6 @@ func main() {
 	mapvalue["name1"] = 1
 	mapvalue["name2"] = 50
 	fmt.Printf("%v,%T,\n", mapvalue, mapvalue) //map[name1:1 name2:50],map[string]int
-
 	/*
 		判断某个键是否存在
 		Go语言中有个判断map中键是否存在的特殊写法，格式如下:

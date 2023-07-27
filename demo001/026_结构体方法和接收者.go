@@ -37,11 +37,11 @@ type Person2 struct {
 	height  int
 }
 
-func (p Person2) PrintInfo()  {
+func (p Person2) PrintInfo()  { 
 	fmt.Printf("姓名：%v  年龄：%v \n",p.Name,p.Age)
 }
 
-// 如果想修改值,这里必须是指针类型;
+// 如果想修改结构体里面的值,这里必须是指针类型;
 func (p *Person2) setInfo(name string,age int)  {
 	p.Name = name
 	p.Age = age
