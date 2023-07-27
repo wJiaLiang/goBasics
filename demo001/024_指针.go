@@ -7,10 +7,10 @@ import "fmt"
 所有的变量都有内存地址
 */
 
-func fn1(x int) {
+func fn1Pointer(x int) {
 	x = 20
 }
-func fn2(x *int) {
+func fn2Pointer(x *int) {
 	*x = 50
 }
 
@@ -41,6 +41,7 @@ func main() {
 
 	p := &a                            // p 是指针变量 p的类型 *int (指针类型)
 	fmt.Printf("值：%v  类型：%T \n", p, p) // 值：0xc00000a0f0  类型：*int
+
 	// *p 表示取出p这个变量对应的内存地址的值;
 	fmt.Println(p)  // a的地址   0xc000106018
 	fmt.Println(*p) // 打印变量 a 内存地址对应的值    10
@@ -49,12 +50,23 @@ func main() {
 	fmt.Println(a) //30
 
 	var s = 5
-	fn1(s)
+	fn1Pointer(s)
 	fmt.Println(s) //5
-	fn2(&s)
+	fn2Pointer(&s)
 	fmt.Println(s) //50
 
 	test()
 	newH()
+	fmt.Println("")
+	var str string = "aabbcc"
+	for k,v:=range str{
+		fmt.Printf("v=%v c=%c \n",k,v)
+		// v=0 c=a
+		// v=1 c=a
+		// v=2 c=b
+		// v=3 c=b
+		// v=4 c=c
+		// v=5 c=c
+	}
 
 }

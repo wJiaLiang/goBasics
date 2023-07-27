@@ -41,9 +41,15 @@ func main() {
 	for i := 0;i<len(a1);i++ {
 		fmt.Println(a1[i])
 	}
+	//php
+	//golang
+	//java
 
 	for key,v := range a1{
 		fmt.Printf("%v %v\n",key,v)
+		//0 php
+		//1 golang
+		//2 java
 	}
 
 
